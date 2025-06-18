@@ -104,15 +104,7 @@ All actions are logged with timestamps, and a web interface is provided for real
 - Live charts with Chart.js
 - Store logs in NVS or SD card
 - Connect to external database or cloud server
-
 ---
-
-##  Circuit Diagram
-
->  Not included here. Use tools like **Fritzing** or **EasyEDA** to draw it.
-
----
-
 ##  Contributing
 
 Want to contribute ideas or features? Fork this repo and send a pull request.
