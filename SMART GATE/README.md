@@ -1,10 +1,36 @@
-# Smart gate
+#  Smart gate
 
 This Arduino-based security system uses an IR sensor to detect the presence of a person, prompts for an RFID card or a keypad PIN, and controls a servo motor (e.g., door or barrier). It displays instructions and feedback on a 16x2 I2C LCD screen and logs all system events to the Serial Monitor.
 
 ---
 
-## Features
+## Goals
+
+- To automate secure entry systems using low-cost microcontrollers and sensors.
+- To reduce human error and manual checking in access control.
+- To enhance the safety and efficiency of doors, gates, or lockers using RFID and PIN verification.
+
+---
+
+## Mission
+
+> "To provide a smart, low-cost, and scalable access control system for homes, schools, labs, and offices by combining RFID, PIN, and sensor technology."
+
+---
+
+## Real-Life Objectives
+
+-  Prevent **unauthorized access** using RFID cards or secure PIN codes.
+-  Detect human presence using **IR sensor** to activate system only when needed.
+-  **Automate door/gate movement** using a servo motor (mimics gate open/close).
+-  Provide **visual feedback** to users via LCD screen.
+-  Allow **backup PIN entry** if card is lost or unreadable.
+-  Log activity in the Serial Monitor for testing and monitoring.
+-  Suitable for **labs, exam rooms, staff-only doors**, or **home automation**.
+
+---
+
+##  Features
 
 -  IR Sensor detects when a person approaches
 -  RFID (RC522) reads user card
@@ -14,7 +40,7 @@ This Arduino-based security system uses an IR sensor to detect the presence of a
   - Correct PIN code: `12345`
 -  Servo motor rotates 120° for access, then resets to 0° after user leaves
 -  LCD I2C (16x2) displays system messages
--  Serial Monitor logs all actions and results
+- 🖥️ Serial Monitor logs all actions and results
 
 ---
 
@@ -89,17 +115,12 @@ This Arduino-based security system uses an IR sensor to detect the presence of a
 Install them via **Library Manager** in Arduino IDE.
 
 ---
+## Author
+**Munyaneza El-Chadai**
 
-##  Example
+**School:** ACEJ/Karama
 
-```text
-System initialized and ready.
-IR sensor detected object.
-Waiting for RFID card...
-Card UID: 34 69 14 4C
-Card is valid.
-Access granted by RFID.
-Waiting for object to leave...
-Object left. Waiting 5 seconds before closing servo.
-Servo returned to 0°.
-Ready for next user.
+**Field:** Embedded Systems & IoT
+
+
+---
