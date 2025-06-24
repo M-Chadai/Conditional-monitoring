@@ -107,12 +107,6 @@ All actions are logged with timestamps, and a web interface is provided for real
 
 ---
 
-##  Circuit Diagram
-
->  Not included here. Use tools like **Fritzing** or **EasyEDA** to draw it.
-
----
-
 ##  Contributing
 
 Want to contribute ideas or features? Fork this repo and send a pull request.
@@ -125,11 +119,4 @@ Want to contribute ideas or features? Fork this repo and send a pull request.
 Student – ACEJ/Karama  
 Passionate about Embedded Systems & IoT  
 Year: 2023–2026
-
----
-
-##  License
-
-This project is open-source and licensed under the MIT License.
-
 ---
